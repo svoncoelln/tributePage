@@ -1,3 +1,13 @@
+
+/* Set font to Spectral. Set the background image and set it to be fixed, non-repeating, and cover the whole screen. */
+body {
+    background-image: url("https://drive.google.com/uc?export=view&id=1JpBuXDjw4skeR05-Pu8EPyU9rK7ENcIV");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Spectral', sans-serif;
+}
+
 /* Center header 1 attributes. Adjust padding and font size. */
 h1 {
     margin: auto;
@@ -28,15 +38,6 @@ p {
 img {
     max-width: 125%;
     height: auto;
-}
-
-/* Set font to Spectral. Set the background image and set it to be fixed, non-repeating, and cover the whole screen. */
-body {
-    background-image: url("https://drive.google.com/uc?export=view&id=1JpBuXDjw4skeR05-Pu8EPyU9rK7ENcIV");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Spectral', sans-serif;
 }
 
 /* Set the background color to a semi-transparent white. Set the maximum width of the colored div to 55% of the
