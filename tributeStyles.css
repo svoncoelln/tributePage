@@ -1,0 +1,107 @@
+/* Center header 1 attributes. Adjust padding and font size. */
+h1 {
+    margin: auto;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    font-size: xxx-large;
+}
+
+/* Remove bottom margin on heading 3 attributes. */
+h3 {
+    margin-bottom: 0;
+}
+
+/* Remove top and bottom margin on heading 4 attributes. */
+h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+/* Remove top margin on paragraph attributes. */
+p {
+    margin-top: 0;
+    font-size: large;
+}
+
+/* Set a max width for image attributes and automatically adjust height based on width. Allows for resizing the page. */
+img {
+    max-width: 125%;
+    height: auto;
+}
+
+/* Set font to Spectral. Set the background image and set it to be fixed, non-repeating, and cover the whole screen. */
+body {
+    background-image: url("https://drive.google.com/uc?export=view&id=1JpBuXDjw4skeR05-Pu8EPyU9rK7ENcIV");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Spectral', sans-serif;
+}
+
+/* Set the background color to a semi-transparent white. Set the maximum width of the colored div to 55% of the
+screen. Adjust the margin. */
+.fullDiv {
+    background-color: rgba(255, 255, 255, 0.85);
+    max-width: 55%;
+    margin: -.5% auto;
+}
+
+/* Set the margin to automatic and adjust the padding. */
+.mainInfoDiv {
+    margin: auto;
+    padding: 0 3% 3% 3%;
+}
+
+/* Set the margin to automatic. Set the maximum width to 75% of the container. */
+.headerDiv {
+    margin: auto;
+    max-width: 75%;
+}
+
+/* Set the margin to automatic with 25px at the top. Set the width to fit the content. Create a solid black border with
+ rounded edges. */
+.basicInfoDiv {
+    margin:5% auto auto;
+    width: fit-content;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5%;
+    padding: 0 5%;
+}
+/* Set the display type to grid to better align basicInfoDiv and headerDiv. Set the columns to each take up half of the
+space. Center the contents. Set margin and padding. */
+.gridDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 1%;
+}
+
+/* Set the divider between the top and bottom parts of the page. Hr styles by Harry Roberts, available at
+ https://css-tricks.com/examples/hrs/, slightly edited. */
+hr {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    width: 70%; /* my code */
+}
+hr:after {
+    content: "∰"; /* my symbol */
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    color: black;
+}
+
+/* Set the link color to blue (removes the property where it turns purple once clicked). */
+a {
+    color: blue;
+}
